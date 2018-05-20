@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CraigsComponentComponent } from './craigs-component/craigs-component.component';
+import { BsAlertBarComponent } from './bs-alert-bar/bs-alert-bar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CraigsComponentComponent,
+    BsAlertBarComponent
   ],
   imports: [
     BrowserModule
